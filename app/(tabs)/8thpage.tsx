@@ -10,43 +10,43 @@ export default function Knowledge({ route }) {
       <Text style={styles.headerText}>This is an informative about How our BRAIN Works</Text>
 
       <View style={styles.imageContainer}>
-        <Image source={require('../../assets/images/rationalthinker.png')} style={styles.image} />
+        <Image source={require('../../assets/images/rationalthinker.webp')} style={styles.image} />
       </View>
       
       <Text style={styles.subHeaderText}>This is the Normal HUMAN Focusing on his Goals</Text>
       
       <View style={styles.imageContainer}>
-        <Image source={require('../../assets/images/monkey.png')} style={styles.image} />
+        <Image source={require('../../assets/images/monkey.webp')} style={styles.image} />
       </View>
       
       <Text style={styles.bodyText}>That is An Instant Gratification MONKEY searching for immediate pleasures and doesn't care about the future or Goals</Text>
       
       <View style={styles.imageContainer}>
-        <Image source={require('../../assets/images/monkeytake.png')} style={styles.image} />
+        <Image source={require('../../assets/images/monkeytake.webp')} style={styles.image} />
       </View>
       
       <Text style={styles.bodyText}>There is always a Fight between both while deciding to do a Task. Which has the HIGHER ENERGY wins.</Text>
       
       <View style={styles.imageContainer}>
-        <Image source={require('../../assets/images/monkeytakeover.png')} style={styles.image} />
+        <Image source={require('../../assets/images/monkeytakeover.webp')} style={styles.image} />
       </View>
       
       <Text style={styles.bodyText}>MONKEY takes over when it has a higher Energy</Text>
       
       <View style={styles.imageContainer}>
-        <Image source={require('../../assets/images/panicmonster.png')} style={styles.image} />
+        <Image source={require('../../assets/images/panicmonster.webp')} style={styles.image} />
       </View>
       
       <Text style={styles.bodyText}>This is the PANIC MONSTER the only creature MONKEY is afraid of.</Text>
       
       <View style={styles.imageContainer}>
-        <Image source={require('../../assets/images/panicmonstert.png')} style={styles.image} />
+        <Image source={require('../../assets/images/panicmonstert.webp')} style={styles.image} />
       </View>
       
       <Text style={styles.bodyText}>The PANIC MONSTER arrives only when there is an External Deadline</Text>
       
       <View style={styles.imageContainer}>
-        <Image source={require('../../assets/images/frationalthinker.png')} style={styles.image} />
+        <Image source={require('../../assets/images/frationalthinker.webp')} style={styles.image} />
       </View>
       
       <Text style={styles.bodyText}>The MONKEY runs away but the HUMAN is still unhappy as he doesn’t have enough time left.</Text>

@@ -29,7 +29,7 @@ export default function Task5({ route }) {
       <View style={styles.fullBackground}>
         <View style={styles.container}>
           <Image 
-            source={require('../../assets/images/5.5.png')} 
+            source={require('../../assets/images/5.5.webp')} 
             style={styles.image}
           />
           <Text style={styles.title}>Enter Your Task Below</Text>

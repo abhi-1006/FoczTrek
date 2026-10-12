@@ -7,7 +7,7 @@ export default function alltasks({ route }) {
     <ScrollView contentContainerStyle={styles.scrollContainer}>
       <View style={styles.container}>
         <Image
-          source={require('../../assets/images/summit.1.png')}
+          source={require('../../assets/images/summit.1.webp')}
           style={styles.image}
         />
         

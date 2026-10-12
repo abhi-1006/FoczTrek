@@ -16,7 +16,7 @@ export default function HomeScreen({ navigation }: Props) {
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.logoContainer}>
         <Image
-          source={require('../../assets/images/focztreklogo.png')}
+          source={require('../../assets/images/focztreklogo.webp')}
           style={styles.logo}
         />
       </View>
