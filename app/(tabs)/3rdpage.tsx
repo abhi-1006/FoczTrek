@@ -28,7 +28,7 @@ export default function FullQuadrants({ navigation }: Props) {
         <Text style={styles.subheading}>Please fill in your tasks accordingly</Text>
       </View>
 
-      <Image source={require('../../assets/images/all1.png')} style={styles.image} resizeMode="contain" />
+      <Image source={require('../../assets/images/all1.webp')} style={styles.image} resizeMode="contain" />
 
       
       <View style={styles.buttonContainer}>
