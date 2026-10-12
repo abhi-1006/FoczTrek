@@ -6,8 +6,6 @@ export type QuadrantInfo = {
   action: string;
   description: string;
   emoji: string;
-  /** Page background on the planning form. */
-  background: string;
   /** Card / button accent color. */
   accent: string;
   /** Text color that stays readable on `accent`. */
@@ -21,7 +19,6 @@ export const QUADRANTS: QuadrantInfo[] = [
     action: 'Do it now',
     description: 'Critical tasks that need immediate attention.',
     emoji: '🔥',
-    background: '#E8F8EC',
     accent: '#2E9E4F',
     onAccent: '#FFFFFF',
   },
@@ -31,7 +28,6 @@ export const QUADRANTS: QuadrantInfo[] = [
     action: 'Schedule it',
     description: 'Tasks that build long-term well-being. Plan a time for them.',
     emoji: '🕒',
-    background: '#E6F4FB',
     accent: '#1F7FB8',
     onAccent: '#FFFFFF',
   },
@@ -41,7 +37,6 @@ export const QUADRANTS: QuadrantInfo[] = [
     action: 'Delegate it',
     description: "Tasks that feel pressing but don't move your goals forward.",
     emoji: '⚡',
-    background: '#FDF1E3',
     accent: '#C76A12',
     onAccent: '#FFFFFF',
   },
@@ -51,7 +46,6 @@ export const QUADRANTS: QuadrantInfo[] = [
     action: 'Eliminate it',
     description: 'Low-value tasks. Be honest about what can go.',
     emoji: '⏳',
-    background: '#F1F1F1',
     accent: '#6B6B6B',
     onAccent: '#FFFFFF',
   },
